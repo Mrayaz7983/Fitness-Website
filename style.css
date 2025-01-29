@@ -1,0 +1,137 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+ }
+
+ .Navbar {
+     height: 70px;
+     width: 100%;
+     background-color: #232a3193;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 2rem;
+ }
+
+ body {
+     background-image: url('data/bg\ image.webp');
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100%;
+
+
+
+ }
+
+ .text {
+     color: #EA563A;
+     font-size: 30px;
+ }
+
+ .Training {
+     font-size: 30px;
+ }
+
+ .logo {
+     font-size: 30px;
+     font-weight: 900;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .Menu {
+     display: flex;
+     justify-content: space-around;
+     gap: 1.5rem;
+     align-items: center;
+ }
+
+ a {
+     text-decoration: none;
+     color: white;
+     padding: 0.5rem 1rem;
+     transition: color 0.3s ease;
+ }
+
+ a:hover {
+     color: #EA563A;
+ }
+
+ .btn1 {
+     background-color: #EA563A;
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 12px 20px;
+     border: transparent;
+     font-size: 12px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ button:hover {
+     background-color: #d34f2a;
+ }
+
+ h3 {
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 100;
+     font-size: medium;
+     text-align: center;
+     position: relative;
+     margin-top: 13rem;
+ }
+
+ h1 {
+     color: white;
+     text-align: center;
+     font-size: 3rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bolder;
+     margin-top: 1rem;
+ }
+
+ .gym {
+     color: #EA563A;
+     font-size: 30px;
+     font-size: 3rem;
+     font-weight: bolder;
+ }
+
+ .btn2 {
+     background-color: #EA563A;
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 12px 20px;
+     border: transparent;
+     font-size: 12px;
+     cursor: pointer;
+     margin-left: 36rem;
+     margin-top: 1rem;
+
+
+ }
+
+
+
+ @media only screen and (max-width: 600px) {
+     .Menu {
+         flex-wrap: wrap;
+         text-align: center;
+     }
+
+     .btn2 {
+         flex-wrap: wrap;
+         margin: auto;
+         padding: auto;
+     }
+
+     .logo {
+        flex-wrap: wrap;
+        
+     }
+ }
